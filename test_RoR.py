@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore', '',)
 
 class test_RoR:
 	"""
-        This class takes as imput an URL. Use the function isRoR
+        This class takes as imput an URL. Use the function is_RoR
         to know if the website is using Ruby on Rails.
         
         Example :
