@@ -23,8 +23,8 @@ class test_RoR:
         to know if the website is using Ruby on Rails.
         
         Example :
-			testurl = testRoR("http://www.google.com)
-			score = testurl.isRoR()
+			test_url = test_RoR("http://www.google.com)
+			score = test_url.is_RoR()
 			return 1/5
 
     """ 
