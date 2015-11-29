@@ -143,8 +143,7 @@ def main():
 		try:
 			file_URL = open(filename,'r')
 		except:
-			print "Unexpected error:", sys.exc_info()[0]
-			exit(-1)
+			print "error opening file:", sys.exc_info()[0]
 		for url in file_URL.readlines():
 			url = url.rstrip()
 			if url != '':				
