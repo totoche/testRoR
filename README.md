@@ -1,5 +1,5 @@
 # Intro
-This script test an URL and return a score about the probability the website is using Ruby on Rails.
+This Tool takes as input a list of URLs, and which outputs, for each URL, a score indicating if remote website is using Ruby on Rails
 
 # Examples:
 

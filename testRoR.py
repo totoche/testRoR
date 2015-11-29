@@ -1,8 +1,7 @@
 #!/usr/bin/python
 
 #######################################################
-# Thomas AUBIN
-# 28/11/2015
+# creation : 28/11/2015
 # This Tool takes as input a list of URLs, 
 # and which outputs, for each URL, a score 
 # indicating if remote website is using Ruby on Rails 
