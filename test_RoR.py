@@ -17,7 +17,7 @@ import warnings
 # comment for debug
 warnings.filterwarnings('ignore', '',)
 
-class testRoR:
+class test_RoR:
 	"""
         This class takes as imput an URL. Use the function isRoR
         to know if the website is using Ruby on Rails.
@@ -65,7 +65,7 @@ class testRoR:
 			return False
 		return True
 		
-	def printSource(self):
+	def print_source(self):
 		"""
 			display headers and source about the website
 		"""
@@ -73,7 +73,7 @@ class testRoR:
 		print(self.info)
 		print(self.page_source)
 		
-	def isRoR(self):
+	def is_RoR(self):
 		"""
 			return a score between 0 and 5.
 			0 if the website desn't use RoR.
@@ -147,8 +147,8 @@ def main():
 		for url in file_URL.readlines():
 			url = url.rstrip()
 			if url != '':				
-				testurl = testRoR(url)
-				score = testurl.isRoR()
+				test_url = test_RoR(url)
+				score = test_url.is_RoR()
 				if score == -1:
 					print("Error	" + url)
 				else:	
@@ -156,8 +156,8 @@ def main():
 		
 	else:
 		for url in sys.argv[1:]:
-			testurl = testRoR(url)
-			score = testurl.isRoR()
+			test_url = test_RoR(url)
+			score = test_url.is_RoR()
 			if score == -1:
 				print("Error	" + url)
 			else:	
