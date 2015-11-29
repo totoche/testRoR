@@ -1,7 +1,9 @@
 Check if the website use Ruby on Rails. Display a score.
 
 Examples:
+
 	$./testRoR.py http:// sqreen.io/ http://a_ror_website.fake/
+	
 	score	URL
 	1/5	http://sqreen.io/
 	5/5	http://a_ror_website.fake/
