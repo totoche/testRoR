@@ -1,6 +1,7 @@
-Check if the website use Ruby on Rails. Display a score.
+# intro
+This script test an URL and return a score about the probability the website is using Ruby on Rails.
 
-Examples:
+# Examples:
 
 	$./testRoR.py http:// sqreen.io/ http://a_ror_website.fake/
 	
